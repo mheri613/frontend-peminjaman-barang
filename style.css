@@ -1,0 +1,295 @@
+:root {
+    --bluesoft: #F9FBFC;
+    --blue: #3A38FF;
+    --purplesoft: #E5E4FF;
+    --navy: #101041;
+    --darkgrey: #949293;
+    --darkgrey2: #E7EBED;
+    --grey: #DFE2E7;
+    --purple: #6261D8;
+    --green: #316762;
+    --white: #ffffff;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bluesoft);
+}
+
+.big-header {
+    font-weight: var(--fwextrabold);
+    color: var(--navy);
+    font-size: 48px;
+    margin: 0;
+}
+
+.medium-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 28px;
+    margin: 0;
+}
+
+.small-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 22px;
+    margin: 0;
+}
+
+.primary-copy {
+    font-size: 16;
+    font-weight: var(--fwregular);
+    color: var(--darkgrey);
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 50px;
+    border: 0;
+    background: var(--white);
+    padding: 12px 20px 12px 20px;
+}
+
+textarea.from-control {
+    border-radius: 16px;
+}
+
+.form-select {
+    border-radius: 50px;
+    border: 0;
+    padding: 12px 20px 12px 20px;
+    background: var(--white);
+    background-image: url('../images/icon_dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 24px;
+}
+
+.text-button {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.features-wrapper:hover .big-feature-card:not(:hover) {
+    filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+.features-wrapper:hover .small-feature-card:not(:hover) {
+    filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+.features .features-wrapper .small-feature-card {
+    padding: 30px;
+    border-radius: 16px;
+    background: var(--white);
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.features .features-wrapper h3 {
+    padding-top: 16px;
+}
+
+.features .features-wrapper .small-feature-card .icon {
+    height: 100px;
+}
+
+.features .features-wrapper .big-feature-card {
+    padding: 30px;
+    border-radius: 16px;
+    background: var(--white);
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.features .features-wrapper .icon {
+    float: left;
+    width: 60px;
+    height: 200px;
+    margin-right: 18px;
+}
+
+.features .features-wrapper .icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.text-button:hover {
+    text-decoration: underline;
+    color: var(--navy);
+}
+
+.btn-primary {
+    padding: 12px 20px 12px 20px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-primary:hover {
+    padding: 12px 20px 12px 20px;
+    background: var(--navy);
+    color: var(--white);
+}
+
+.btn-secondary {
+    padding: 12px 20px 12px 20px;
+    background: var(--grey);
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: var(--fwmedium);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-secondary:hover {
+    background: var(--navy);
+    color: var(--white) !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--blue);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+    color: var(--navy);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+    font-weight: var(--fwbold);
+    font-size: 28px;
+    color: var(--navy);
+}
+
+.navbar {
+    --bs-navbar-padding-y:0rem;
+}
+
+.cashier-navbar {
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
+
+.badge {
+    color: var(--navy);
+    display: inline-flex;
+    background: var(--purplesoft);
+    margin-top: 100px;
+}
+
+.badge p {
+    align-self: flex-end;
+    margin: 2px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-10 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.card-brand {
+    width: 227px;
+    height: 110px;
+    border-radius: 16px;
+    background: var(--darkgrey2);
+    text-align: center;
+}
+
+.card-brand .logo {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    height: 110px;
+    animation: moveSlidesToLeft 15s linear infinite;
+}
+
+.carousel {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+}
+
+@keyframes moveSlidesToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    to  {
+        transform: translateX(0%);
+    }
+}
+
+.carousel-wrapper-left {
+    display: flex;
+    height: 110px;
+    animation: moveSlidesToRight 15s linear infinite;
+}
+
+.carousel-left {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+}
+
+@keyframes moveSlidesToRight {
+    0% {
+        transform: translateX(0%);
+    }
+    to  {
+        transform: translateX(100%);
+    }
+}
